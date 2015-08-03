@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_x99n4M8aEd6u2sVrwSxmpw">
+  <elementImport xmi:id="_yFGxsM8aEd6u2sVrwSxmpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_yGFpIM8aEd6u2sVrwSxmpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_yGFpIc8aEd6u2sVrwSxmpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_yGFpIs8aEd6u2sVrwSxmpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_Sab6QM8bEd6u2sVrwSxmpw" name="Peer j - Listener">
+    <region xmi:id="_ScOqAM8bEd6u2sVrwSxmpw" name="Region">
+      <subvertex xmi:type="uml:State" xmi:id="_YpBjcM8bEd6u2sVrwSxmpw" name="Received a &quot;Move&quot; request"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_gm71MM8bEd6u2sVrwSxmpw" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_1qaPAM8bEd6u2sVrwSxmpw" name="Read old position from saved resource"/>
+      <subvertex xmi:type="uml:State" xmi:id="_GUj4IM8cEd6u2sVrwSxmpw" name="Ask to old player responsible"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_v1AFYM8cEd6u2sVrwSxmpw" kind="join"/>
+      <subvertex xmi:type="uml:State" xmi:id="_0bS7EM8cEd6u2sVrwSxmpw" name="Response received from peer h"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_KBfAYM8dEd6u2sVrwSxmpw" kind="choice"/>
+      <transition xmi:id="_copasM8bEd6u2sVrwSxmpw" source="_Vj8B0M8bEd6u2sVrwSxmpw" target="_YpBjcM8bEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_iAoMAM8bEd6u2sVrwSxmpw" source="_YpBjcM8bEd6u2sVrwSxmpw" target="_gm71MM8bEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_65h_QM8bEd6u2sVrwSxmpw" source="_gm71MM8bEd6u2sVrwSxmpw" target="_1qaPAM8bEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_LEvCkM8cEd6u2sVrwSxmpw" source="_gm71MM8bEd6u2sVrwSxmpw" target="_GUj4IM8cEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_cGprcM8cEd6u2sVrwSxmpw" source="_GUj4IM8cEd6u2sVrwSxmpw" target="_U5ln0M8cEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_xj_90M8cEd6u2sVrwSxmpw" source="_1qaPAM8bEd6u2sVrwSxmpw" target="_v1AFYM8cEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_ymQsEM8cEd6u2sVrwSxmpw" source="_0bS7EM8cEd6u2sVrwSxmpw" target="_v1AFYM8cEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_BZ5fgM8dEd6u2sVrwSxmpw" source="_4k84EM8cEd6u2sVrwSxmpw" target="_0bS7EM8cEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_EzDzsM8dEd6u2sVrwSxmpw" source="_GUj4IM8cEd6u2sVrwSxmpw" target="_0bS7EM8cEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_LCcHEM8dEd6u2sVrwSxmpw" source="_v1AFYM8cEd6u2sVrwSxmpw" target="_KBfAYM8dEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_v0NlwM8dEd6u2sVrwSxmpw" source="_KBfAYM8dEd6u2sVrwSxmpw" target="_pNOqsM8dEd6u2sVrwSxmpw"/>
+    </region>
+    <connectionPoint xmi:id="_Vj8B0M8bEd6u2sVrwSxmpw" name="Movement Request by player k" kind="entryPoint"/>
+    <connectionPoint xmi:id="_U5ln0M8cEd6u2sVrwSxmpw" name="Ask old responsible" kind="exitPoint"/>
+    <connectionPoint xmi:id="_4k84EM8cEd6u2sVrwSxmpw" name="Response from old responsible" kind="entryPoint"/>
+    <connectionPoint xmi:id="_pNOqsM8dEd6u2sVrwSxmpw" name="Respond Ack/Nack to player k movement" kind="exitPoint"/>
+  </packagedElement>
+</uml:Package>

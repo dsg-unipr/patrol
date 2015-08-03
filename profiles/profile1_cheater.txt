@@ -1,0 +1,13 @@
+200
+250
+true
+100
+0
+"GameResource","GameResourceMobile"
+2,2
+0
+"GameResource","GameResourceMobile"
+5,5
+250
+250
+80

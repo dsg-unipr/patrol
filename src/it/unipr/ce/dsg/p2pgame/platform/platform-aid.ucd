@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="platform-aid" id="{UMLID=_A7We8NPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform}" metadata="uml2-1.0" initialized="true" zoom="0.5" scrolledX="476" scrolledY="739" tag="10" key="32303037303632392050325047616D65" Shrink="true">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.5" name="RegisterPeerMessage" location="2870,532" size="237,30" timstampe="2" stereotype="" id="{UMLID=_GQuBINPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/RegisterPeerMessage}" shortShow="true" runTimeClassModel="RegisterPeerMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;),getPassword(),setPassword(Ljava.lang.String;),setUserName(Ljava.lang.String;),getUserName(),RegisterPeerMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;),userName,password">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.8" name="CheckMobileResourceMessage" location="2940,797" size="297,30" timstampe="2" stereotype="" id="{UMLID=_GQia8NPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/CheckMobileResourceMessage}" shortShow="true" runTimeClassModel="getPosY(),posY,posX,setVel(D),setUserName(Ljava.lang.String;),ownerId,setOldPos(Ljava.lang.String;),CheckMobileResourceMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;DDDDDLjava.lang.String;Ljava.lang.String;Ljava.lang.String;D),posZ,setVis(D),id,getPosZ(),getUserName(),CheckMobileResourceMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;),userName,quantity,getVis(),setQuantity(D),getVel(),setPosX(D),setPosZ(D),setOwnerId(Ljava.lang.String;),getQuantity(),setOwner(Ljava.lang.String;),vis,setId(Ljava.lang.String;),getId(),setPosY(D),vel,getOwnerId(),getOwner(),owner,getPosX(),getOldPos(),oldPos">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.19" name="LogoutPeerMessage" location="2898,966" size="229,30" timstampe="2" stereotype="" id="{UMLID=_GQL1oNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/LogoutPeerMessage}" shortShow="true" runTimeClassModel="getPassword(),setPassword(Ljava.lang.String;),setUserName(Ljava.lang.String;),getUserName(),userId,LogoutPeerMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;),userName,getUserId(),LogoutPeerMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;),setUserId(Ljava.lang.String;),password">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.10" name="MobileResourceMessage" location="2240,322" size="258,30" timstampe="2" stereotype="" id="{UMLID=_GRFNgNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/MobileResourceMessage}" shortShow="true" runTimeClassModel="getPosY(),posY,setVel(D),posX,setUserName(Ljava.lang.String;),ownerId,setOldPos(Ljava.lang.String;),posZ,setVis(D),id,getPositionHash(),getPosZ(),getUserName(),getPosition(),userName,quantity,getVis(),setQuantity(D),getVel(),setPosX(D),setPosZ(D),setOwnerId(Ljava.lang.String;),positionHash,getQuantity(),setPositionHash(Ljava.lang.String;),setOwner(Ljava.lang.String;),setId(Ljava.lang.String;),vis,getId(),getOwnerId(),setPosY(D),vel,MobileResourceMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;),setPosition(Ljava.lang.String;),MobileResourceMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;DDDDDLjava.lang.String;Ljava.lang.String;Ljava.lang.String;D),getPosX(),owner,getOwner(),getOldPos(),oldPos">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.17" name="CheckPositionPlayerMessage" location="3037,1454" size="287,30" timstampe="2" stereotype="" id="{UMLID=_GSSHYNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/CheckPositionPlayerMessage}" shortShow="true" runTimeClassModel="getPosY(),posY,posX,setVel(D),setUserName(Ljava.lang.String;),setOldPos(Ljava.lang.String;),posZ,setVis(D),CheckPositionPlayerMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;),id,CheckPositionPlayerMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;DDDDDLjava.lang.String;),getPosZ(),getUserName(),userName,getVis(),getVel(),setPosX(D),setPosZ(D),setId(Ljava.lang.String;),vis,getId(),vel,setPosY(D),getPosX(),getOldPos(),oldPos">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.2 //@children.25/@sourceConnections.28 //@children.23/@sourceConnections.1" name="PlayerPositionUpdate" location="2225,1007" size="175,30" timstampe="6" stereotype="" id="{UMLID=_CAaNENPXEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/PlayerPositionUpdate}" shortShow="true" runTimeClassModel="peer,player,threadId,run(),PlayerPositionUpdate(Lit.unipr.ce.dsg.p2pgame.platform.GamePeer;Lit.unipr.ce.dsg.p2pgame.platform.GamePlayer;Lit.unipr.ce.dsg.p2pgame.platform.GameWorld;),searchNearObject(),world">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_CKhyYdPXEd66MdcND9V7RA}" source="//@children.5" target="//@children.25" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_CL-j4dPXEd66MdcND9V7RA}" source="//@children.5" target="//@children.26" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="54,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_CMVwQdPXEd66MdcND9V7RA}" source="//@children.5" target="//@children.7" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_CNEJAdPXEd66MdcND9V7RA}" source="//@children.5" target="//@children.22" targetEnd="//@children.5/@sourceConnections.3/@children.2" label="//@children.5/@sourceConnections.3/@children.0" sourceEnd="//@children.5/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="54,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="183,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_CPkDYdPXEd66MdcND9V7RA}" source="//@children.5" target="//@children.23" targetEnd="//@children.5/@sourceConnections.4/@children.2" label="//@children.5/@sourceConnections.4/@children.0" sourceEnd="//@children.5/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_CSEk0dPXEd66MdcND9V7RA}" source="//@children.5" target="//@children.29" targetEnd="//@children.5/@sourceConnections.5/@children.2" label="//@children.5/@sourceConnections.5/@children.0" sourceEnd="//@children.5/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="115,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.23 //@children.19/@sourceConnections.1" name="Defense" location="3053,1856" size="90,30" timstampe="3" stereotype="" id="{UMLID=_GFclQNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/Defense}" shortShow="true" runTimeClassModel="getTime(),setTime(J),time,getType(),getQuantity(),quantity,type,Defense(DLjava.lang.String;),setQuantity(D),setType(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.29/@sourceConnections.1 //@children.29/@sourceConnections.7 //@children.25/@sourceConnections.7 //@children.21/@sourceConnections.1 //@children.5/@sourceConnections.2" name="GameWorld" location="1260,2099" size="114,30" timstampe="5" stereotype="" id="{UMLID=_DInnwNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/GameWorld}" shortShow="true" runTimeClassModel="isOnWorld(DDD),minZ,GameWorld(DDDDDDD),maxZ,maxY,maxX,getRandomY(),getMinZ(),minX,minY,getMinY(),getMaxX(),getGranularity(),getRandomZ(),getMinX(),granularity,getMaxY(),getMaxZ(),getRandomX()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_HPxDUNPWEd66MdcND9V7RA}" source="//@children.7" target="//@children.25" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="world" location="104,0" id="{UMLID=_F17ikNPWEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.7/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1371,2076" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- world" location="1324,2076" size="33,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_HPxDUdPWEd66MdcND9V7RA}" multiplicityLabel="//@children.7/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2525,638" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_D9Hm0NPWEd66MdcND9V7RA}" source="//@children.7" target="//@children.21" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="world" location="0,30" id="{UMLID=_DIg6ENPWEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.7/@sourceConnections.1/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1247,2106" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- world" location="1220,2135" size="33,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="96,0" id="{UMLID=_D9Hm0dPWEd66MdcND9V7RA}" multiplicityLabel="//@children.7/@sourceConnections.1/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="849,2078" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_CUu3QNPXEd66MdcND9V7RA}" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="world" location="104,0" id="{UMLID=_CEajUNPXEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.7/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1371,2076" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- world" location="1324,2076" size="33,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_CUu3QdPXEd66MdcND9V7RA}" multiplicityLabel="//@children.7/@sourceConnections.2/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2211,1004" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.3" name="ClearAttackMatchMessage" location="2787,461" size="266,30" timstampe="2" stereotype="" id="{UMLID=_GQpIoNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/ClearAttackMatchMessage}" shortShow="true" runTimeClassModel="getPosY(),posY,posX,setUserName(Ljava.lang.String;),getType(),posZ,type,id,getPositionHash(),getPosZ(),getUserName(),getNonce(),setNonce(I),userName,getPosition(),quantity,getHash(),setQuantity(D),setPosX(D),setPosZ(D),hash,positionHash,getQuantity(),ClearAttackMatchMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;DDDLjava.lang.String;Ljava.lang.String;DI),setPositionHash(Ljava.lang.String;),setHash(Ljava.lang.String;),ClearAttackMatchMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;),setId(Ljava.lang.String;),setType(Ljava.lang.String;),nonce,getId(),setPosY(D),setPosition(Ljava.lang.String;),getPosX()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.21" name="FindResourceMessage" location="2324,167" size="244,30" timstampe="2" stereotype="" id="{UMLID=_GROXcNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/FindResourceMessage}" shortShow="true" runTimeClassModel="setPosX(D),setPosZ(D),getPosY(),posY,setUserName(Ljava.lang.String;),posX,posZ,setOldPos(Ljava.lang.String;),positionHash,setPositionHash(Ljava.lang.String;),getPositionHash(),getPosZ(),setPosY(D),getUserName(),setPosition(Ljava.lang.String;),FindResourceMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;DDDLjava.lang.String;),getPosX(),userName,getOldPos(),getPosition(),oldPos,FindResourceMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.6" name="UserPeerMessage" location="2281,237" size="214,30" timstampe="2" stereotype="" id="{UMLID=_GQ0u0NPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/UserPeerMessage}" shortShow="true" runTimeClassModel="getZ(),setUserName(Ljava.lang.String;),vision,setZ(D),setVelocity(D),setVision(D),UserPeerMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;),getX(),getVision(),getUserName(),setX(D),getY(),UserPeerMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;DDDDD),velocity,userName,getVelocity(),z,setY(D),y,x">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.24 //@children.21/@sourceConnections.4" name="PositionPlayerMessage" location="1497,1385" size="248,30" timstampe="2" stereotype="" id="{UMLID=_DY8iwNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/PositionPlayerMessage}" shortShow="true" runTimeClassModel="getPosY(),posY,setUserName(Ljava.lang.String;),posX,setVel(D),posZ,setOldPos(Ljava.lang.String;),setVis(D),id,getPositionHash(),getPosZ(),getUserName(),userName,getPosition(),getVis(),getVel(),setPosX(D),setPosZ(D),positionHash,setPositionHash(Ljava.lang.String;),setId(Ljava.lang.String;),vis,PositionPlayerMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;),getId(),setPosY(D),vel,setPosition(Ljava.lang.String;),getPosX(),PositionPlayerMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;DDDDDLjava.lang.String;),getOldPos(),oldPos">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.24/@sourceConnections.0 //@children.24/@sourceConnections.2" name="NetResourceInfo" location="1694,559" size="376,30" timstampe="5" stereotype="" id="{UMLID=_EGZeoNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.network/NetResourceInfo}" shortShow="true" runTimeClassModel="getResourceKey(),resourceKey,getOwnerId(),ownerId,getOwner(),owner,NetResourceInfo(Ljava.lang.String;Lit.unipr.ce.dsg.p2pgame.network.NetPeerInfo;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.29" name="ManageNetUpdate" location="2659,294" size="153,30" timstampe="5" stereotype="" id="{UMLID=_Ct3wANPXEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/ManageNetUpdate}" shortShow="true" runTimeClassModel="peer,ManageNetUpdate(IIIILit.unipr.ce.dsg.p2pgame.platform.GamePeer;),threadId,periodCheckPredecessor,orderPeriod(),periodFixFinger,lunchFunction(I),orderedString,run(),periodPublish,printOrderedPeriod(),periodStabilize,orderedPeriod">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_C0G64dPXEd66MdcND9V7RA}" source="//@children.13" target="//@children.25" targetEnd="//@children.13/@sourceConnections.0/@children.2" label="//@children.13/@sourceConnections.0/@children.0" sourceEnd="//@children.13/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.2 //@children.24/@sourceConnections.1" name="NetSharedResource" location="1917,362" size="396,30" timstampe="5" stereotype="" id="{UMLID=_2MBD4NPUEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.network/NetSharedResource}" shortShow="true" runTimeClassModel="getPeersInfo(),peersId,getInfoFor(Ljava.lang.String;),getPeersId(),saveInfo(Ljava.lang.String;Lit.unipr.ce.dsg.p2pgame.network.NetPeerInfo;Ljava.lang.String;),getIdFor(Ljava.lang.String;),peersInfo,NetSharedResource()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_FqnqcNPWEd66MdcND9V7RA}" source="//@children.14" target="//@children.24" targetEnd="//@children.14/@sourceConnections.0/@children.2" label="//@children.14/@sourceConnections.0/@children.0" sourceEnd="//@children.14/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="sharedInfos" location="396,20" id="{UMLID=_EaSD8NPWEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.14/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.14/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2319,389" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- sharedInfos" location="2319,360" size="63,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,0" id="{UMLID=_FqnqcdPWEd66MdcND9V7RA}" multiplicityLabel="//@children.14/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2447,538" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.22" name="StartMatchMessage" location="2981,648" size="223,30" timstampe="2" stereotype="" id="{UMLID=_GSXm8NPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/StartMatchMessage}" shortShow="true" runTimeClassModel="getPosY(),posY,posX,StartMatchMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;),setUserName(Ljava.lang.String;),posZ,id,getPositionHash(),getPosZ(),getUserName(),userName,getPosition(),StartMatchMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;DDDLjava.lang.String;),getHash(),setPosX(D),setPosZ(D),hash,positionHash,setPositionHash(Ljava.lang.String;),setHash(Ljava.lang.String;),setId(Ljava.lang.String;),getId(),setPosY(D),setPosition(Ljava.lang.String;),getPosX()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.12 //@children.19/@sourceConnections.0" name="Attack" location="2832,1889" size="79,30" timstampe="3" stereotype="" id="{UMLID=_GBYkoNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/Attack}" shortShow="true" runTimeClassModel="setTime(J),Attack(DLjava.lang.String;),Attack(DLjava.lang.String;I),getType(),hash,getQuantity(),type,setHash(Ljava.lang.String;),setType(Ljava.lang.String;),getTime(),time,nonce,getNonce(),setNonce(I),quantity,getHash(),setQuantity(D)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.15" name="DefenseMatchMessage" location="2725,1729" size="244,30" timstampe="2" stereotype="" id="{UMLID=_GRUeENPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/DefenseMatchMessage}" shortShow="true" runTimeClassModel="getPosY(),posY,posX,setUserName(Ljava.lang.String;),DefenseMatchMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;),posZ,id,getPositionHash(),getPosZ(),getUserName(),userName,getPosition(),quantity,DefenseMatchMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;DDDLjava.lang.String;D),setQuantity(D),setPosX(D),setPosZ(D),positionHash,resource,getQuantity(),getResource(),setPositionHash(Ljava.lang.String;),setId(Ljava.lang.String;),setResource(Ljava.lang.String;),getId(),setPosY(D),setPosition(Ljava.lang.String;),getPosX()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.13" name="LoginPeerMessage" location="2736,363" size="221,30" timstampe="2" stereotype="" id="{UMLID=_GQ_G4NPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform.message/LoginPeerMessage}" shortShow="true" runTimeClassModel="getPassword(),setPassword(Ljava.lang.String;),setUserName(Ljava.lang.String;),getUserName(),LoginPeerMessage(Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;),userName,LoginPeerMessage(L/inc/SimpleXMLProtocol_1.it.simplexml.message.Message;),password">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.1 //@children.25/@sourceConnections.27" name="Clash" location="3004,1595" size="76,30" timstampe="12" stereotype="" id="{UMLID=_F1zmwNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/Clash}" shortShow="true" runTimeClassModel="getOtherPlayerMoves(),setOtherPlayer(Ljava.lang.String;),getResults(),otherPlayerId,setStatusLast(Lit.unipr.ce.dsg.p2pgame.platform.Clash.Phase;),addMyMove(Ljava.lang.Object;),getTiming(),results,getOtherPlayerId(),setMyMoves(Ljava.lang.Object;),it.unipr.ce.dsg.p2pgame.platform.Clash.Result,timing,verifyAttack(),getHash(),statusLast,it.unipr.ce.dsg.p2pgame.platform.Clash.Phase,addHash(Ljava.lang.String;),hash,getStatusLast(),setOtherPlayerMoves(Ljava.lang.Object;),getMyMoves(),setHash(Ljava.lang.String;),otherPlayer,addResult(I),setOtherPlayerId(Ljava.lang.String;),setResults(Ljava.lang.Integer;),getOtherPlayer(),myMoves,otherPlayerMoves,addOtherPlayerMove(Ljava.lang.Object;),closeClash(),Clash(Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,204">
+      <children xsi:type="editmodel:EnumerationEditModel" name="Phase" size="102,109" timstampe="12" id="{UMLID=_GTNUcNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/Clash$Phase}" runTimeClassModel="DEFENSE%,END%,HASH%">
+        <children xsi:type="editmodel:CompartmentEditModel" size="80,54">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="END" size="52,16" id="{UMLID=_NH430NPXEd66MdcND9V7RA}"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="DEFENSE" size="80,16" id="{UMLID=_NH3CoNPXEd66MdcND9V7RA}"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="HASH" size="59,16" id="{UMLID=_NHpAMNPXEd66MdcND9V7RA}"/>
+        </children>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+      </children>
+      <children xsi:type="editmodel:EnumerationEditModel" name="Result" size="102,91" timstampe="12" id="{UMLID=_-IgHYNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/Clash$Result}" runTimeClassModel="LOSE%,WIN%">
+        <children xsi:type="editmodel:CompartmentEditModel" size="57,36">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="WIN" size="50,16" id="{UMLID=_NSBEMNPXEd66MdcND9V7RA}"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="LOSE" size="57,16" id="{UMLID=_NR_PANPXEd66MdcND9V7RA}"/>
+        </children>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_-NSgwdPWEd66MdcND9V7RA}" source="//@children.19" target="//@children.16" targetEnd="//@children.19/@sourceConnections.0/@children.2" label="//@children.19/@sourceConnections.0/@children.0" sourceEnd="//@children.19/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="115,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_-PdD8NPWEd66MdcND9V7RA}" source="//@children.19" target="//@children.6" targetEnd="//@children.19/@sourceConnections.1/@children.2" label="//@children.19/@sourceConnections.1/@children.0" sourceEnd="//@children.19/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="52,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="13,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.21/@sourceConnections.0 //@children.21/@sourceConnections.2" name="BootstrapServer" location="658,1888" size="373,30" timstampe="10" stereotype="" id="{UMLID=_A3MXsNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.network/BootstrapServer}" shortShow="true" runTimeClassModel="lastConnectedUser,BootstrapServer(IIII),maxSizeOfPeerCache,maxDist,outputPort,savePeerOnCache(Ljava.lang.String;Ljava.lang.String;I),printLastConnectedUser(),maxDistString,num,closetSuccessor(Ljava.lang.String;),updateCache(),getLastConnectedUser(),inputPort">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.1 //@children.23/@sourceConnections.0" name="GameServer" location="766,2100" size="116,30" timstampe="8" stereotype="" id="{UMLID=_A77twNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/GameServer}" shortShow="true" runTimeClassModel="respPlayer,logoutUser(Ljava.lang.String;),defaultVision,getWorld(),getLoggedInUser(),registeredUser,registerNewUser(Ljava.lang.String;Ljava.lang.String;),gameInPort,loggedInUser,GameServer(IIIIIIDDDDDDDDD),publishPosition(Ljava.lang.String;Lit.unipr.ce.dsg.p2pgame.network.NetPeerInfo;Lit.unipr.ce.dsg.p2pgame.platform.GamePlayer;),loginUser(Ljava.lang.String;Ljava.lang.String;Z),leaveResp(Ljava.lang.String;),createNewRandomPlayer(Ljava.lang.String;Ljava.lang.String;),getRegisteredUser(),gameOutPort,defalutVelocity,getResPlayer(Ljava.lang.String;),world">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="{UMLID=_C9BbwNPWEd66MdcND9V7RA}" source="//@children.21" target="//@children.20" targetEnd="//@children.21/@sourceConnections.0/@children.1" sourceEnd="//@children.21/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_DjtBQdPWEd66MdcND9V7RA}" source="//@children.21" target="//@children.7" targetEnd="//@children.21/@sourceConnections.1/@children.2" label="//@children.21/@sourceConnections.1/@children.0" sourceEnd="//@children.21/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,14" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,15"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_Dk2QwNPWEd66MdcND9V7RA}" source="//@children.21" target="//@children.20" targetEnd="//@children.21/@sourceConnections.2/@children.2" label="//@children.21/@sourceConnections.2/@children.0" sourceEnd="//@children.21/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="50,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_DvpykdPWEd66MdcND9V7RA}" source="//@children.21" target="//@children.23" targetEnd="//@children.21/@sourceConnections.3/@children.2" label="//@children.21/@sourceConnections.3/@children.0" sourceEnd="//@children.21/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_D3ccoNPWEd66MdcND9V7RA}" source="//@children.21" target="//@children.11" targetEnd="//@children.21/@sourceConnections.4/@children.2" label="//@children.21/@sourceConnections.4/@children.0" sourceEnd="//@children.21/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,30"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.29/@sourceConnections.3 //@children.25/@sourceConnections.4 //@children.25/@sourceConnections.26 //@children.5/@sourceConnections.3" name="GamePlayerResponsible" location="1230,1908" size="193,30" timstampe="5" stereotype="" id="{UMLID=_F1jIENPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/GamePlayerResponsible}" shortShow="true" runTimeClassModel="timestamp,getPositionHash(),setTimestamp(J),setOldPos(Ljava.lang.String;),positionHash,getOldPos(),getTimestamp(),setPositionHash(Ljava.lang.String;),oldPos,GamePlayerResponsible(Ljava.lang.String;Ljava.lang.String;DDDDDJLjava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="{UMLID=_94yQYNPWEd66MdcND9V7RA}" source="//@children.22" target="//@children.23" targetEnd="//@children.22/@sourceConnections.0/@children.1" sourceEnd="//@children.22/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="47,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_967lcdPWEd66MdcND9V7RA}" source="//@children.22" target="//@children.23" targetEnd="//@children.22/@sourceConnections.1/@children.2" label="//@children.22/@sourceConnections.1/@children.0" sourceEnd="//@children.22/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="50,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,30"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.14 //@children.25/@sourceConnections.25 //@children.22/@sourceConnections.0 //@children.22/@sourceConnections.1 //@children.21/@sourceConnections.3 //@children.5/@sourceConnections.4" name="GamePlayer" location="1269,1828" size="115,30" timstampe="8" stereotype="" id="{UMLID=_DHSyENPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/GamePlayer}" shortShow="true" runTimeClassModel="setPosX(D),setVisibility(D),setPosZ(D),getPosY(),posY,setName(Ljava.lang.String;),visibility,posX,posZ,setVelocity(D),getSpatialPosition(),getVisibility(),setId(Ljava.lang.String;),getName(),id,getPosZ(),getId(),setPosY(D),movePlayer(DDD),name,getPosX(),velocity,getVelocity(),GamePlayer(Ljava.lang.String;Ljava.lang.String;DDDDD)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_D9GYsNPWEd66MdcND9V7RA}" source="//@children.23" target="//@children.21" targetEnd="//@children.23/@sourceConnections.0/@children.2" label="//@children.23/@sourceConnections.0/@children.0" sourceEnd="//@children.23/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="respPlayer" location="0,20" id="{UMLID=_DHLdUNPWEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.23/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.23/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1255,1855" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- respPlayer" location="1203,1826" size="58,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="106,0" id="{UMLID=_D9GYsdPWEd66MdcND9V7RA}" multiplicityLabel="//@children.23/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="859,2058" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="key" location="853,2081" size="29,22" id="{UMLID=_DHVOUNPWEd66MdcND9V7RA}"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_CUkfMNPXEd66MdcND9V7RA}" source="//@children.23" target="//@children.5" targetEnd="//@children.23/@sourceConnections.1/@children.2" label="//@children.23/@sourceConnections.1/@children.0" sourceEnd="//@children.23/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="player" location="115,-6" id="{UMLID=_CEQyUNPXEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.23/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.23/@sourceConnections.1/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1371,1806" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- player" location="1391,1835" size="36,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,25" id="{UMLID=_CUkfMdPXEd66MdcND9V7RA}" multiplicityLabel="//@children.23/@sourceConnections.1/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2211,1010" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.0 //@children.25/@sourceConnections.11 //@children.14/@sourceConnections.0" name="NetPeer" location="2431,560" size="321,30" timstampe="11" stereotype="" id="{UMLID=_ELVpANPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.network/NetPeer}" shortShow="true" runTimeClassModel="findSuccessor(Ljava.lang.String;Ljava.lang.String;),getAccessToNetwork(),successor,testIfPeerAlive(Ljava.lang.String;I),sendNewSucc(),dimKeySpace,myThreadId,setSuccessorId(Ljava.lang.String;),closetPrecedingNode(Ljava.lang.String;),getSharedInfos(),getPredecessorId(),stabilize(),create(),printFingerEntry(),publishResourceTo(),getServerAddress(),printResourceCache(),requestToFindSuccessor(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),getSuccessorId(),getMyId(),publishResource(Ljava.lang.String;),addResourceOnCache(Lit.unipr.ce.dsg.p2pgame.network.NetResourceInfo;),messageListener,successorId,getFingerEntry(),saveOnCache(Ljava.lang.String;Lit.unipr.ce.dsg.p2pgame.network.NetPeerInfo;Ljava.lang.String;),getServerPort(),notify(Ljava.lang.String;Lit.unipr.ce.dsg.p2pgame.network.NetPeerInfo;),setMyId(Ljava.lang.String;),getMyPeer(),sendNewPred(),printAllInfo(),inputPort,NetPeer(IIILjava.lang.String;Ljava.lang.String;I),sharedInfos,tryToGetSucc(),fingerEntry,checkPredecessor(),getSuccessor(),next,fingerTable,predecessorId,isInInterval(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZ),setSuccessor(Lit.unipr.ce.dsg.p2pgame.network.NetPeerInfo;),searchResource(Ljava.lang.String;Ljava.lang.String;),setResourceOnCache(Lit.unipr.ce.dsg.p2pgame.network.NetResourceInfo;),predecessor,printFingerTable(),resourceOnCache,deleteChordResourceByCache(Ljava.lang.String;),getResourceOnCache(),getFingerTable(),serverAddress,setPredecessor(Lit.unipr.ce.dsg.p2pgame.network.NetPeerInfo;),createMessageListener(),reconnectPeer(),m,reqResource(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),join(Lit.unipr.ce.dsg.p2pgame.network.NetPeerInfo;Ljava.lang.String;),myId,outputPort,serverPort,getPredecessor(),myPeer,disconnectPeer(Ljava.lang.String;),fixFinger(Ljava.lang.String;),setPredecessorId(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_FHP3odPWEd66MdcND9V7RA}" source="//@children.24" target="//@children.12" targetEnd="//@children.24/@sourceConnections.0/@children.2" label="//@children.24/@sourceConnections.0/@children.0" sourceEnd="//@children.24/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,14" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="376,15"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_FRZ5MdPWEd66MdcND9V7RA}" source="//@children.24" target="//@children.14" targetEnd="//@children.24/@sourceConnections.1/@children.2" label="//@children.24/@sourceConnections.1/@children.0" sourceEnd="//@children.24/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="131,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="396,20"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_Fqg8wNPWEd66MdcND9V7RA}" source="//@children.24" target="//@children.12" targetEnd="//@children.24/@sourceConnections.2/@children.2" label="//@children.24/@sourceConnections.2/@children.0" sourceEnd="//@children.24/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,10" id="{UMLID=_Fqg8wdPWEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.24/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2391,577" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="key" location="2405,560" size="29,22" id="{UMLID=_EZ8swNPWEd66MdcND9V7RA}"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="resourceOnCache" location="356,0" id="{UMLID=_EZzi0NPWEd66MdcND9V7RA}" multiplicityLabel="//@children.24/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.24/@sourceConnections.2/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2057,536" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- resourceOnCache" location="1949,536" size="94,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.29/@sourceConnections.2 //@children.29/@sourceConnections.6 //@children.26/@sourceConnections.2 //@children.7/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.13/@sourceConnections.0" name="GamePeer" location="2539,640" size="104,30" timstampe="7" stereotype="" id="{UMLID=_ELcWsNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/GamePeer}" shortShow="true" runTimeClassModel="newDefense(Ljava.lang.String;Ljava.lang.String;Lit.unipr.ce.dsg.p2pgame.platform.Defense;),player,requestResource(Ljava.lang.String;DDDLjava.lang.String;),printRespPlayer(),myThreadId,password,checkResourceMobile(Lit.unipr.ce.dsg.p2pgame.platform.GameResourceMobileResponsible;DDDD),registerOnServer(Ljava.lang.String;Ljava.lang.String;),printMyResource(),username,createGameMessageListener(),getUsername(),createMobileResource(Ljava.lang.String;D),movePlayer(DDDLjava.lang.String;),printRespResources(),myResources,clashes,publishResourceMobileTo(),msCheck,getGameServerAddr(),resResources,getPassword(),publishResourceMobile(Ljava.lang.String;),getWorld(),printVision(),gameServerPort,msPublish,msFixFinger,addAttackReceived(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),getVision(),publishPosition(Ljava.lang.String;),getAttackClear(Ljava.lang.String;),defenseMatch(Lit.unipr.ce.dsg.p2pgame.platform.GamePlayerResponsible;Ljava.lang.String;DLjava.lang.String;),getMyResourceFromId(Ljava.lang.String;),updateNet,addToMyResource(Lit.unipr.ce.dsg.p2pgame.platform.GameResource;),logoutOnServer(Ljava.lang.String;),createUpdateNetThread(),deleteResPlayer(Ljava.lang.String;),addRespResourceOnCache(Lit.unipr.ce.dsg.p2pgame.platform.GameResourceMobileResponsible;),startMatch(Lit.unipr.ce.dsg.p2pgame.platform.GamePlayerResponsible;Ljava.lang.String;DLjava.lang.String;),GamePeer(IIILjava.lang.String;Ljava.lang.String;IIILjava.lang.String;IIIII),gameInPort,closeMatch(Ljava.lang.String;),addToVision(Ljava.lang.Object;I),getMyResources(),printLastClashes(),getGameServerPort(),newAttach(Ljava.lang.String;Ljava.lang.String;Lit.unipr.ce.dsg.p2pgame.platform.Attack;),getClashes(),addRespPlayerOnCache(Lit.unipr.ce.dsg.p2pgame.platform.GamePlayerResponsible;),playerMovement,gameServerAddr,vision,loginOnServer(Ljava.lang.String;Ljava.lang.String;),publishPositionTo(),getResResources(),addClearAttackReceived(Ljava.lang.String;Ljava.lang.String;Lit.unipr.ce.dsg.p2pgame.platform.Attack;),getMyMobileResourceFromId(Ljava.lang.String;),getPlayer(),gameListener,startGame(DDDDDDDDD),gameMessageListener,resPlayers,getResPlayers(),gameOutPort,checkPosition(Lit.unipr.ce.dsg.p2pgame.platform.GamePlayerResponsible;DDDD),deleteResResource(Ljava.lang.String;),addDefenseReceived(Ljava.lang.String;Ljava.lang.String;Lit.unipr.ce.dsg.p2pgame.platform.Defense;),moveResourceMobile(Ljava.lang.String;DDDLjava.lang.String;),world,msStabilize">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="{UMLID=_FspqwNPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.24" targetEnd="//@children.25/@sourceConnections.0/@children.1" sourceEnd="//@children.25/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="170,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_GcZFodPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.19" targetEnd="//@children.25/@sourceConnections.1/@children.2" label="//@children.25/@sourceConnections.1/@children.0" sourceEnd="//@children.25/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_GfA70dPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.14" targetEnd="//@children.25/@sourceConnections.2/@children.2" label="//@children.25/@sourceConnections.2/@children.0" sourceEnd="//@children.25/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="39,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="386,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_Gfk8gdPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.8" targetEnd="//@children.25/@sourceConnections.3/@children.2" label="//@children.25/@sourceConnections.3/@children.0" sourceEnd="//@children.25/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_Gi5WQdPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.22" targetEnd="//@children.25/@sourceConnections.4/@children.2" label="//@children.25/@sourceConnections.4/@children.0" sourceEnd="//@children.25/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="115,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="193,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_GlwdAdPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.0" targetEnd="//@children.25/@sourceConnections.5/@children.2" label="//@children.25/@sourceConnections.5/@children.0" sourceEnd="//@children.25/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_GmxJodPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.10" targetEnd="//@children.25/@sourceConnections.6/@children.2" label="//@children.25/@sourceConnections.6/@children.0" sourceEnd="//@children.25/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="204,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_GoPJQdPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.7" targetEnd="//@children.25/@sourceConnections.7/@children.2" label="//@children.25/@sourceConnections.7/@children.0" sourceEnd="//@children.25/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="52,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_GspvMNPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.1" targetEnd="//@children.25/@sourceConnections.8/@children.2" label="//@children.25/@sourceConnections.8/@children.0" sourceEnd="//@children.25/@sourceConnections.8/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_GtYH8dPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.28" targetEnd="//@children.25/@sourceConnections.9/@children.2" label="//@children.25/@sourceConnections.9/@children.0" sourceEnd="//@children.25/@sourceConnections.9/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="115,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="177,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_GvNT8dPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.3" targetEnd="//@children.25/@sourceConnections.10/@children.2" label="//@children.25/@sourceConnections.10/@children.0" sourceEnd="//@children.25/@sourceConnections.10/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="248,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_Gy3E4dPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.24" targetEnd="//@children.25/@sourceConnections.11/@children.2" label="//@children.25/@sourceConnections.11/@children.0" sourceEnd="//@children.25/@sourceConnections.11/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="50,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="52,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="160,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_G0IQMdPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.16" targetEnd="//@children.25/@sourceConnections.12/@children.2" label="//@children.25/@sourceConnections.12/@children.0" sourceEnd="//@children.25/@sourceConnections.12/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_G1m24dPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.18" targetEnd="//@children.25/@sourceConnections.13/@children.2" label="//@children.25/@sourceConnections.13/@children.0" sourceEnd="//@children.25/@sourceConnections.13/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_G4nuodPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.23" targetEnd="//@children.25/@sourceConnections.14/@children.2" label="//@children.25/@sourceConnections.14/@children.0" sourceEnd="//@children.25/@sourceConnections.14/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,31" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_G7Qy8NPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.17" targetEnd="//@children.25/@sourceConnections.15/@children.2" label="//@children.25/@sourceConnections.15/@children.0" sourceEnd="//@children.25/@sourceConnections.15/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_G7_ywNPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.29" targetEnd="//@children.25/@sourceConnections.16/@children.2" label="//@children.25/@sourceConnections.16/@children.0" sourceEnd="//@children.25/@sourceConnections.16/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="115,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="41,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_G_qx0dPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.4" targetEnd="//@children.25/@sourceConnections.17/@children.2" label="//@children.25/@sourceConnections.17/@children.0" sourceEnd="//@children.25/@sourceConnections.17/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_HAaYsdPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.27" targetEnd="//@children.25/@sourceConnections.18/@children.2" label="//@children.25/@sourceConnections.18/@children.0" sourceEnd="//@children.25/@sourceConnections.18/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="115,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="35,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_HDfh4dPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.2" targetEnd="//@children.25/@sourceConnections.19/@children.2" label="//@children.25/@sourceConnections.19/@children.0" sourceEnd="//@children.25/@sourceConnections.19/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_HE8TYdPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.26" targetEnd="//@children.25/@sourceConnections.20/@children.2" label="//@children.25/@sourceConnections.20/@children.0" sourceEnd="//@children.25/@sourceConnections.20/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="115,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_HHXVQNPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.9" targetEnd="//@children.25/@sourceConnections.21/@children.2" label="//@children.25/@sourceConnections.21/@children.0" sourceEnd="//@children.25/@sourceConnections.21/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="14,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="229,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_HIFuAdPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.15" targetEnd="//@children.25/@sourceConnections.22/@children.2" label="//@children.25/@sourceConnections.22/@children.0" sourceEnd="//@children.25/@sourceConnections.22/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,19" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,11"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_HKOcAdPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.6" targetEnd="//@children.25/@sourceConnections.23/@children.2" label="//@children.25/@sourceConnections.23/@children.0" sourceEnd="//@children.25/@sourceConnections.23/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_HMLj0NPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.11" targetEnd="//@children.25/@sourceConnections.24/@children.2" label="//@children.25/@sourceConnections.24/@children.0" sourceEnd="//@children.25/@sourceConnections.24/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="238,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_HPv1MNPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.23" targetEnd="//@children.25/@sourceConnections.25/@children.2" label="//@children.25/@sourceConnections.25/@children.0" sourceEnd="//@children.25/@sourceConnections.25/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_HPv1MdPWEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.25/@sourceConnections.25/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2525,638" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="player" location="105,0" id="{UMLID=_F02kgNPWEd66MdcND9V7RA}" multiplicityLabel="//@children.25/@sourceConnections.25/@children.2/@children.0" roleLabel="//@children.25/@sourceConnections.25/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1381,1806" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- player" location="1331,1806" size="36,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_HP2i4NPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.22" targetEnd="//@children.25/@sourceConnections.26/@children.2" label="//@children.25/@sourceConnections.26/@children.0" sourceEnd="//@children.25/@sourceConnections.26/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,20" id="{UMLID=_HP2i4dPWEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.25/@sourceConnections.26/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2499,638" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="key" location="2513,648" size="29,22" id="{UMLID=_F1lkUNPWEd66MdcND9V7RA}"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="resPlayers" location="183,0" id="{UMLID=_F1e2oNPWEd66MdcND9V7RA}" multiplicityLabel="//@children.25/@sourceConnections.26/@children.2/@children.0" roleLabel="//@children.25/@sourceConnections.26/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1419,1886" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- resPlayers" location="1348,1886" size="57,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_HPunENPWEd66MdcND9V7RA}" source="//@children.25" target="//@children.19" targetEnd="//@children.25/@sourceConnections.27/@children.2" label="//@children.25/@sourceConnections.27/@children.0" sourceEnd="//@children.25/@sourceConnections.27/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="104,20" id="{UMLID=_HPunEdPWEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.25/@sourceConnections.27/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2677,638" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="key" location="2641,648" size="29,22" id="{UMLID=_F11b8NPWEd66MdcND9V7RA}"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="clashes" location="10,0" id="{UMLID=_F1uuQNPWEd66MdcND9V7RA}" multiplicityLabel="//@children.25/@sourceConnections.27/@children.2/@children.0" roleLabel="//@children.25/@sourceConnections.27/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="3001,1572" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- clashes" location="3021,1572" size="42,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_CUjRENPXEd66MdcND9V7RA}" source="//@children.25" target="//@children.5" targetEnd="//@children.25/@sourceConnections.28/@children.2" label="//@children.25/@sourceConnections.28/@children.0" sourceEnd="//@children.25/@sourceConnections.28/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="peer" location="0,10" id="{UMLID=_CEFMINPXEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.25/@sourceConnections.28/@children.1/@children.0" roleLabel="//@children.25/@sourceConnections.28/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2525,657" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- peer" location="2502,628" size="29,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="155,0" id="{UMLID=_CUjREdPXEd66MdcND9V7RA}" multiplicityLabel="//@children.25/@sourceConnections.28/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2367,984" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_C3ipYNPXEd66MdcND9V7RA}" source="//@children.25" target="//@children.13" targetEnd="//@children.25/@sourceConnections.29/@children.2" label="//@children.25/@sourceConnections.29/@children.0" sourceEnd="//@children.25/@sourceConnections.29/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="peer" location="104,10" id="{UMLID=_CvDbwNPXEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.25/@sourceConnections.29/@children.1/@children.0" roleLabel="//@children.25/@sourceConnections.29/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2649,628" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- peer" location="2649,657" size="29,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,30" id="{UMLID=_C3ipYdPXEd66MdcND9V7RA}" multiplicityLabel="//@children.25/@sourceConnections.29/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2675,331" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.29/@sourceConnections.4 //@children.25/@sourceConnections.20 //@children.5/@sourceConnections.1" name="GameResourceMobileResponsible" location="2520,2057" size="255,30" timstampe="5" stereotype="" id="{UMLID=_F0lewNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/GameResourceMobileResponsible}" shortShow="true" runTimeClassModel="timestamp,getPositionHash(),setTimestamp(J),setOldPos(Ljava.lang.String;),positionHash,getOldPos(),getTimestamp(),setPositionHash(Ljava.lang.String;),oldPos,GameResourceMobileResponsible(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;DDDDDDJLjava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="{UMLID=_9Nc0YNPWEd66MdcND9V7RA}" source="//@children.26" target="//@children.29" targetEnd="//@children.26/@sourceConnections.0/@children.1" sourceEnd="//@children.26/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="137,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_9QNNcNPWEd66MdcND9V7RA}" source="//@children.26" target="//@children.29" targetEnd="//@children.26/@sourceConnections.1/@children.2" label="//@children.26/@sourceConnections.1/@children.0" sourceEnd="//@children.26/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="50,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="117,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_HP1UwNPWEd66MdcND9V7RA}" source="//@children.26" target="//@children.25" targetEnd="//@children.26/@sourceConnections.2/@children.2" label="//@children.26/@sourceConnections.2/@children.0" sourceEnd="//@children.26/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="resResources" location="70,0" id="{UMLID=_F0di8NPWEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.26/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.26/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2577,2034" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- resResources" location="2597,2034" size="73,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="51,30" id="{UMLID=_HP1UwdPWEd66MdcND9V7RA}" multiplicityLabel="//@children.26/@sourceConnections.2/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2597,697" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="key" location="2576,668" size="29,22" id="{UMLID=_F0oiENPWEd66MdcND9V7RA}"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.28/@sourceConnections.0 //@children.28/@sourceConnections.1 //@children.29/@sourceConnections.5 //@children.25/@sourceConnections.18" name="GameResource" location="2476,1897" size="135,30" timstampe="8" stereotype="" id="{UMLID=_F49BYNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/GameResource}" shortShow="true" runTimeClassModel="getDescription(),id,getId(),clone(),description,getQuantity(),quantity,setDescription(Ljava.lang.String;),GameResource(Ljava.lang.String;Ljava.lang.String;D),setQuantity(D),setId(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.9" name="GameResourceEvolve" location="2352,1977" size="177,30" timstampe="3" stereotype="" id="{UMLID=_GSdGgNPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/GameResourceEvolve}" shortShow="true" runTimeClassModel="update,setPeriod(J),evolveResource(),getOffset(),getPeriod(),setOffset(D),period,offset,GameResourceEvolve(Ljava.lang.String;Ljava.lang.String;DJD)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.29/@sourceConnections.0" size="2,1" id="{UMLID=_84788NPWEd66MdcND9V7RA}" source="//@children.28" target="//@children.27" targetEnd="//@children.28/@sourceConnections.0/@children.1" sourceEnd="//@children.28/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="140,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="16,30" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_86k7sNPWEd66MdcND9V7RA}" source="//@children.28" target="//@children.27" targetEnd="//@children.28/@sourceConnections.1/@children.2" label="//@children.28/@sourceConnections.1/@children.0" sourceEnd="//@children.28/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="50,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="150,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,30"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.26/@sourceConnections.0 //@children.26/@sourceConnections.1 //@children.25/@sourceConnections.16 //@children.5/@sourceConnections.5" name="GameResourceMobile" location="2559,1977" size="177,30" timstampe="8" stereotype="" id="{UMLID=_F7fYANPWEd66MdcND9V7RA,JavaID=it.unipr.ce.dsg.p2pgame.platform/GameResourceMobile}" shortShow="true" runTimeClassModel="update,getZ(),ownerId,resourceVision,setZ(D),setVelocity(D),setVision(D),getSpatialPosition(),initializeSearch(JLit.unipr.ce.dsg.p2pgame.platform.GameWorld;Lit.unipr.ce.dsg.p2pgame.platform.GamePeer;),setX(D),velocity,addToResourceVision(Ljava.lang.Object;I),getVelocity(),setY(D),peer,threadId,vision,searchObjectNearToResource(),setOwnerId(Ljava.lang.String;),setOwner(Ljava.lang.String;),GameResourceMobile(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;DDDDDD),getX(),getResourceVision(),getOwnerId(),clone(),getVision(),owner,getOwner(),getY(),z,y,world,moveResource(DDD),x">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_89GEMNPWEd66MdcND9V7RA}" source="//@children.29" target="//@children.28/@sourceConnections.0" targetEnd="//@children.29/@sourceConnections.0/@children.1" sourceEnd="//@children.29/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_9EBLkNPWEd66MdcND9V7RA}" source="//@children.29" target="//@children.7" targetEnd="//@children.29/@sourceConnections.1/@children.2" label="//@children.29/@sourceConnections.1/@children.0" sourceEnd="//@children.29/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_9FADAdPWEd66MdcND9V7RA}" source="//@children.29" target="//@children.25" targetEnd="//@children.29/@sourceConnections.2/@children.2" label="//@children.29/@sourceConnections.2/@children.0" sourceEnd="//@children.29/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="46,-10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="46,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_9IKEsdPWEd66MdcND9V7RA}" source="//@children.29" target="//@children.22" targetEnd="//@children.29/@sourceConnections.3/@children.2" label="//@children.29/@sourceConnections.3/@children.0" sourceEnd="//@children.29/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="54,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="193,20"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_9Ih4IdPWEd66MdcND9V7RA}" source="//@children.29" target="//@children.26" targetEnd="//@children.29/@sourceConnections.4/@children.2" label="//@children.29/@sourceConnections.4/@children.0" sourceEnd="//@children.29/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="54,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_9LFc4NPWEd66MdcND9V7RA}" source="//@children.29" target="//@children.27" targetEnd="//@children.29/@sourceConnections.5/@children.2" label="//@children.29/@sourceConnections.5/@children.0" sourceEnd="//@children.29/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="50,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="25,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_9NR1QNPWEd66MdcND9V7RA}" source="//@children.29" target="//@children.25" targetEnd="//@children.29/@sourceConnections.6/@children.2" label="//@children.29/@sourceConnections.6/@children.0" sourceEnd="//@children.29/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="46,10" id="{UMLID=_9NR1QdPWEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.29/@sourceConnections.6/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2545,1993" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="peer" location="56,20" id="{UMLID=_8-ImANPWEd66MdcND9V7RA}" multiplicityLabel="//@children.29/@sourceConnections.6/@children.2/@children.0" roleLabel="//@children.29/@sourceConnections.6/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2581,677" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- peer" location="2601,677" size="29,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_9NQnINPWEd66MdcND9V7RA}" source="//@children.29" target="//@children.7" targetEnd="//@children.29/@sourceConnections.7/@children.2" label="//@children.29/@sourceConnections.7/@children.0" sourceEnd="//@children.29/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,-1" id="{UMLID=_9NQnIdPWEd66MdcND9V7RA}" attachSource="true" multiplicityLabel="//@children.29/@sourceConnections.7/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="2545,1983" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="world" location="104,20" id="{UMLID=_8-l5ANPWEd66MdcND9V7RA}" multiplicityLabel="//@children.29/@sourceConnections.7/@children.2/@children.0" roleLabel="//@children.29/@sourceConnections.7/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1381,2096" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- world" location="1381,2125" size="33,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="4" properties="wireOptions=7"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="952,1484" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

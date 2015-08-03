@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="learning-aid" foregroundRGB="255,255,255" description="" id="{UMLID=_O-olgNbhEd683s4eNtYUbA,JavaID=it.unipr.ce.dsg.p2pgame.platform.learning}" metadata="uml2-1.0" initialized="true" scrolledY="162" tag="10" key="32303037303632392050325047616D65" Shrink="true">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.2 //@children.3/@sourceConnections.0 //@children.3/@sourceConnections.1 //@children.2/@sourceConnections.2" name="Profile" location="593,154" size="138,260" timstampe="2" stereotype="" id="{UMLID=_STZh4NbhEd683s4eNtYUbA,JavaID=it.unipr.ce.dsg.p2pgame.platform.learning/Profile}" runTimeClassModel="Profile(),getTime(),setEntity(Ljava.lang.Double;),time,setTime(Ljava.lang.String;),setCheaterProb(D),cheaterProb,entity,getCheaterProb(),getEntity()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,64">
+      <children xsi:type="editmodel:AttributeEditModel" name="entity" size="60,21" id="{UMLID=_TBaecNbhEd683s4eNtYUbA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="time" size="55,21" id="{UMLID=_TBTJsNbhEd683s4eNtYUbA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cheaterProb" size="88,16" id="{UMLID=_TBW0ENbhEd683s4eNtYUbA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,146">
+      <children xsi:type="editmodel:MethodEditModel" name="Profile" size="70,16" id="{UMLID=_TB_tQNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEntity" size="87,21" id="{UMLID=_TB1VMNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEntity" size="86,21" id="{UMLID=_TBpH8NbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTime" size="85,21" id="{UMLID=_TBeI0NbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTime" size="84,21" id="{UMLID=_TB6NsNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCheaterProb" size="117,16" id="{UMLID=_TBkPcNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCheaterProb" size="116,16" id="{UMLID=_TBvOkNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.2/@sourceConnections.1" name="CheaterNet" location="567,448" size="164,83" timstampe="2" id="{UMLID=_Qx89QNbhEd683s4eNtYUbA,JavaID=it.unipr.ce.dsg.p2pgame.platform.learning/CheaterNet}" runTimeClassModel="calculateCheaterProb(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,18">
+      <children xsi:type="editmodel:MethodEditModel" name="calculateCheaterProb" size="143,16" id="{UMLID=_Q3I_QNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="WekaNets" location="266,492" size="164,104" timstampe="3" stereotype="" id="{UMLID=_SM8UkNbhEd683s4eNtYUbA,JavaID=it.unipr.ce.dsg.p2pgame.platform.learning/WekaNets}" runTimeClassModel="WekaNets(Lit.unipr.ce.dsg.p2pgame.platform.GamePeer;IIILjava.lang.String;),net,calculateCheaterProb(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="44,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="net" size="44,16" id="{UMLID=_S2QXUNbhEd683s4eNtYUbA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,36">
+      <children xsi:type="editmodel:MethodEditModel" name="WekaNets" size="89,16" id="{UMLID=_S2xUsNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateCheaterProb" size="143,16" id="{UMLID=_S2iEINbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="{UMLID=_S1_4oNbhEd683s4eNtYUbA}" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="164,271" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:InterfaceRealizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_S2F_QNbhEd683s4eNtYUbA}" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="164,19" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,63"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_S4ZFUNbhEd683s4eNtYUbA}" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,250"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_S-P1sdbhEd683s4eNtYUbA}" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.3/@children.2" label="//@children.2/@sourceConnections.3/@children.0" sourceEnd="//@children.2/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="50,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,51" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="164,333"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.3 //@children.2/@sourceConnections.3 //@children.2/@sourceConnections.0 //@children.4/@sourceConnections.0" name="BehaviourAnalysis" location="28,210" size="164,386" timstampe="5" stereotype="" id="{UMLID=_SMu5MNbhEd683s4eNtYUbA,JavaID=it.unipr.ce.dsg.p2pgame.platform.learning/BehaviourAnalysis}" runTimeClassModel="peer,setProfiles(Lit.unipr.ce.dsg.p2pgame.platform.learning.Profile;),getProfiles(),requestOpinion(Ljava.lang.String;),getTemporalWindow(),updateProfiles(Lit.unipr.ce.dsg.p2pgame.platform.Clash;),setTemporalWindow(I),setPeer(Lit.unipr.ce.dsg.p2pgame.platform.GamePeer;),getCheaterProb(Ljava.lang.String;),getPeer(),cheaterOutputPort,cheaterInputPort,initializeProfiles(Lit.unipr.ce.dsg.p2pgame.platform.Clash;),BehaviorAnalysis(Lit.unipr.ce.dsg.p2pgame.platform.GamePeer;III),profiles,temporalWindow,calculateCheaterProb(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,100">
+      <children xsi:type="editmodel:AttributeEditModel" name="peer" size="57,21" id="{UMLID=_SiMy4NbhEd683s4eNtYUbA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="profiles" size="69,21" id="{UMLID=_SiZnMNbhEd683s4eNtYUbA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="temporalWindow" size="109,16" id="{UMLID=_Sig78NbhEd683s4eNtYUbA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cheaterInputPort" size="109,16" id="{UMLID=_SiVVwNbhEd683s4eNtYUbA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cheaterOutputPort" size="117,16" id="{UMLID=_SiREUNbhEd683s4eNtYUbA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,216">
+      <children xsi:type="editmodel:MethodEditModel" name="BehaviorAnalysis" size="120,16" id="{UMLID=_SisiINbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initializeProfiles" size="111,16" id="{UMLID=_SkbAcNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateProfiles" size="108,16" id="{UMLID=_SjpkYNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCheaterProb" size="117,16" id="{UMLID=_SkIFgNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPeer" size="84,21" id="{UMLID=_SkDNANbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPeer" size="83,21" id="{UMLID=_Si9n4NbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getProfiles" size="96,21" id="{UMLID=_Sj5cANbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setProfiles" size="95,21" id="{UMLID=_SkQBUNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTemporalWindow" size="139,16" id="{UMLID=_Sj-UgNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTemporalWindow" size="138,16" id="{UMLID=_SilNYNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="requestOpinion" size="112,16" id="{UMLID=_SjOGkNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateCheaterProb" size="143,16" id="{UMLID=_SjEVkNbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_SvRlkNbhEd683s4eNtYUbA}" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="131,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="164,101" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,157"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_S1I9ANbhEd683s4eNtYUbA}" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="164,30" id="{UMLID=_S1I9AdbhEd683s4eNtYUbA}" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="226,218" size="6,15" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="key" location="190,229" size="29,22" id="{UMLID=_SifGwNbhEd683s4eNtYUbA}"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="profiles" location="17,86" id="{UMLID=_SiZnMNbhEd683s4eNtYUbA}" multiplicityLabel="//@children.3/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.3/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="580,247" size="6,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- profiles" location="545,218" size="41,15" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="JooneNet" location="238,336" size="164,122" timstampe="3" stereotype="" id="{UMLID=_SLwo0NbhEd683s4eNtYUbA,JavaID=it.unipr.ce.dsg.p2pgame.platform.learning/JooneNet}" runTimeClassModel="restoreNeuralNet(Ljava.lang.String;),net,JooneNet(Lit.unipr.ce.dsg.p2pgame.platform.GamePeer;IIILjava.lang.String;),calculateCheaterProb(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="44,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="net" size="44,16" id="{UMLID=_SOd-kNbhEd683s4eNtYUbA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,54">
+      <children xsi:type="editmodel:MethodEditModel" name="JooneNet" size="86,16" id="{UMLID=_SO_jANbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="restoreNeuralNet" size="123,16" id="{UMLID=_SQOSENbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateCheaterProb" size="143,16" id="{UMLID=_SQXcANbhEd683s4eNtYUbA}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" id="{UMLID=_SN-PUNbhEd683s4eNtYUbA}" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="164,117" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:InterfaceRealizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_SOInYNbhEd683s4eNtYUbA}" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="164,116" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,4"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_SUjYcNbhEd683s4eNtYUbA}" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="76,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="164,38" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,220"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_SdstYdbhEd683s4eNtYUbA}" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="50,30" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,61" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="164,187"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="4" showScope="InPackage" properties="wireOptions=0"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="28,210" rulerUnit="cm">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

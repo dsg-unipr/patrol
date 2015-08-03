@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_HPCAYM4sEd6CHLIZfRfaLg">
+  <elementImport xmi:id="_IrVmUM4sEd6CHLIZfRfaLg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_IrdiIM4sEd6CHLIZfRfaLg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_IreJMM4sEd6CHLIZfRfaLg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_IreJMc4sEd6CHLIZfRfaLg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_N-1OUM4uEd6CHLIZfRfaLg" name="Peer j">
+    <region xmi:id="_OAXfYM4uEd6CHLIZfRfaLg" name="Region">
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_SxNYMM4uEd6CHLIZfRfaLg"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Tn6WsM4uEd6CHLIZfRfaLg" name="Still Player"/>
+      <subvertex xmi:type="uml:State" xmi:id="_iYKe8M4uEd6CHLIZfRfaLg" name="Request Updated Info"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_-nwEsM4vEd6CHLIZfRfaLg" kind="fork"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ODMfAM4wEd6CHLIZfRfaLg" name="Move player"/>
+      <transition xmi:id="_bKbs8M4uEd6CHLIZfRfaLg" source="_SxNYMM4uEd6CHLIZfRfaLg" target="_Tn6WsM4uEd6CHLIZfRfaLg"/>
+      <transition xmi:id="_FPK6EM4vEd6CHLIZfRfaLg" source="_iYKe8M4uEd6CHLIZfRfaLg" target="_0IH5kM4uEd6CHLIZfRfaLg"/>
+      <transition xmi:id="_lb8jkM4vEd6CHLIZfRfaLg" source="_g07VIM4vEd6CHLIZfRfaLg" target="_iYKe8M4uEd6CHLIZfRfaLg"/>
+      <transition xmi:id="__nzMcM4vEd6CHLIZfRfaLg" source="_Tn6WsM4uEd6CHLIZfRfaLg" target="_-nwEsM4vEd6CHLIZfRfaLg"/>
+      <transition xmi:id="_Dxgz0M4wEd6CHLIZfRfaLg" source="_iYKe8M4uEd6CHLIZfRfaLg" target="_iYKe8M4uEd6CHLIZfRfaLg"/>
+      <transition xmi:id="_LloQYM4wEd6CHLIZfRfaLg" source="_-nwEsM4vEd6CHLIZfRfaLg" target="_iYKe8M4uEd6CHLIZfRfaLg"/>
+      <transition xmi:id="_RUw9cM4wEd6CHLIZfRfaLg" source="_-nwEsM4vEd6CHLIZfRfaLg" target="_ODMfAM4wEd6CHLIZfRfaLg"/>
+      <transition xmi:id="_V3xZIM4xEd6CHLIZfRfaLg" source="_ODMfAM4wEd6CHLIZfRfaLg" target="_ODMfAM4wEd6CHLIZfRfaLg"/>
+      <transition xmi:id="_htWgAM4xEd6CHLIZfRfaLg" source="_ODMfAM4wEd6CHLIZfRfaLg" target="_amS9wM4xEd6CHLIZfRfaLg"/>
+    </region>
+    <connectionPoint xmi:id="_0IH5kM4uEd6CHLIZfRfaLg" name="Request around info for: player j" kind="exitPoint"/>
+    <connectionPoint xmi:id="_g07VIM4vEd6CHLIZfRfaLg" name="New Updated Info" kind="entryPoint"/>
+    <connectionPoint xmi:id="_amS9wM4xEd6CHLIZfRfaLg" name="Request Move Permission" kind="exitPoint"/>
+  </packagedElement>
+</uml:Package>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_fOhJYM8eEd6u2sVrwSxmpw">
+  <elementImport xmi:id="_fjsIIM8eEd6u2sVrwSxmpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_fjsvMM8eEd6u2sVrwSxmpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_fjtWQM8eEd6u2sVrwSxmpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_fjtWQc8eEd6u2sVrwSxmpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_jL_EgM8eEd6u2sVrwSxmpw" name="Peer j - Listener">
+    <region xmi:id="_jPNXoM8eEd6u2sVrwSxmpw" name="Region">
+      <subvertex xmi:type="uml:State" xmi:id="_mz80QM8fEd6u2sVrwSxmpw" name="Receive Info Request"/>
+      <subvertex xmi:type="uml:State" xmi:id="_uLCWkM8fEd6u2sVrwSxmpw" name="Read on local info"/>
+      <subvertex xmi:type="uml:State" xmi:id="_51SXMM8fEd6u2sVrwSxmpw" name="Verifiy authorization"/>
+      <subvertex xmi:type="uml:State" xmi:id="_sbAt8M8gEd6u2sVrwSxmpw" name="Authorization response received"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_41n0gM8gEd6u2sVrwSxmpw" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Kb9ZEM8hEd6u2sVrwSxmpw" name="Create Nack Message"/>
+      <subvertex xmi:type="uml:State" xmi:id="_aZLqwM8hEd6u2sVrwSxmpw" name="Create Response with Resource on (x,y,z)"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_ne15cM8hEd6u2sVrwSxmpw" kind="junction"/>
+      <transition xmi:id="_qvCJwM8fEd6u2sVrwSxmpw" source="_--HHoM8eEd6u2sVrwSxmpw" target="_mz80QM8fEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_yPUEUM8fEd6u2sVrwSxmpw" source="_mz80QM8fEd6u2sVrwSxmpw" target="_uLCWkM8fEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_-6AOQM8fEd6u2sVrwSxmpw" source="_uLCWkM8fEd6u2sVrwSxmpw" target="_51SXMM8fEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_RknTQM8gEd6u2sVrwSxmpw" source="_51SXMM8fEd6u2sVrwSxmpw" target="_CBuNIM8gEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_vGL6wM8gEd6u2sVrwSxmpw" source="_lNYpoM8gEd6u2sVrwSxmpw" target="_sbAt8M8gEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_5YDzMM8gEd6u2sVrwSxmpw" source="_sbAt8M8gEd6u2sVrwSxmpw" target="_41n0gM8gEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_h87JAM8hEd6u2sVrwSxmpw" source="_41n0gM8gEd6u2sVrwSxmpw" target="_Kb9ZEM8hEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_jBrxoM8hEd6u2sVrwSxmpw" source="_41n0gM8gEd6u2sVrwSxmpw" target="_aZLqwM8hEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_n73zsM8hEd6u2sVrwSxmpw" source="_Kb9ZEM8hEd6u2sVrwSxmpw" target="_ne15cM8hEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_oyt8IM8hEd6u2sVrwSxmpw" source="_aZLqwM8hEd6u2sVrwSxmpw" target="_ne15cM8hEd6u2sVrwSxmpw"/>
+      <transition xmi:id="_t0J1sM8hEd6u2sVrwSxmpw" source="_ne15cM8hEd6u2sVrwSxmpw" target="_rEIlIM8hEd6u2sVrwSxmpw"/>
+    </region>
+    <connectionPoint xmi:id="_--HHoM8eEd6u2sVrwSxmpw" name="Info Request by player k" kind="entryPoint"/>
+    <connectionPoint xmi:id="_CBuNIM8gEd6u2sVrwSxmpw" name="Ask declared responsible for source request" kind="exitPoint"/>
+    <connectionPoint xmi:id="_lNYpoM8gEd6u2sVrwSxmpw" name="Received response from player k responsible" kind="entryPoint"/>
+    <connectionPoint xmi:id="_rEIlIM8hEd6u2sVrwSxmpw" name="Send response to player k" kind="exitPoint"/>
+  </packagedElement>
+</uml:Package>
